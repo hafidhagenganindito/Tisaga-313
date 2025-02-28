@@ -1,0 +1,232 @@
+/* Text TISAGA 313 style3 */
+.text-container {
+  padding: 20px;
+  display: block; /* Mengubah ini menjadi block */
+  font-family: "Inter", serif;
+  text-align: center; /* Menambahkan ini untuk membuat teks berada di tengah */
+}
+
+.text {
+  font-size: 30px; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+  color: #rgba(37, 79, 43, 1); /* Warna hijau */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+}
+
+/* Responsive untuk tablet (768px ke bawah) */
+@media (max-width: 768px) {
+  .text {
+    font-size: 30px; /* Ukuran font lebih kecil di tablet */
+  }
+}
+
+/* Responsive untuk mobile (480px ke bawah) */
+@media (max-width: 480px) {
+  .text {
+    font-size: 25px; /* Ukuran font lebih kecil di mobile */
+  }
+}
+
+/* ------------------------- */
+/* Image1 serta ada btn text ditengahnya */
+/* Pastikan tidak ada margin dan padding di body */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Container agar gambar benar-benar full width */
+.image-container {
+  position: relative; /* Agar elemen anak bisa absolute */
+  width: 100%;
+  overflow: hidden; /* Hindari overflow */
+  text-align: center;
+}
+
+/* Gambar full width tanpa gap */
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mengecilkan gambar saat ukuran desktop */
+@media screen and (min-width: 1024px) {
+  .full-width-image {
+    width: 50%; /* Perkecil gambar di desktop */
+    max-width: 900px; /* Maksimal lebar agar tidak terlalu besar */
+    margin: 0 auto; /* Pusatkan gambar */
+  }
+}
+
+/* bg-blue */
+
+/* Box biru dengan teks di tengah gambar */
+.bg-blue {
+  font-family: "Inter", serif;
+  position: absolute;
+  top: 50%; /* Posisikan di tengah vertikal */
+  left: 50%; /* Posisikan di tengah horizontal */
+  transform: translate(-50%, -50%); /* Koreksi agar benar-benar di tengah */
+  background-color: rgba(0, 66, 255, 1); /* Warna biru solid */
+  padding: 12px 30px; /* Padding agar lebih lebar */
+  width: 60%; /* Tambahkan width agar lebih besar */
+  max-width: 500px; /* Batas maksimal agar tidak terlalu besar */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px; /* Membuat sudut lebih membulat */
+}
+
+/* Responsif: Perkecil teks dan lebar di ukuran mobile */
+@media screen and (max-width: 768px) {
+  .bg-blue {
+    font-size: 12px;
+    padding: 10px 20px;
+    width: 80%; /* Lebar lebih fleksibel di mobile */
+    max-width: 300px; /* Batasi agar tidak terlalu lebar */
+  }
+}
+
+/* --------------------------------------------------------------------- */
+/* Text KOMPLIKASI LIBAS => style3 */
+.text1 {
+  font-family: "Inter", serif;
+  padding: 20px;
+  display: block; /* Mengubah ini menjadi block */
+  text-align: center; /* Menambahkan ini untuk membuat teks berada di tengah */
+}
+
+.span3 {
+  font-size: 25px; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+  color: #rgba(0, 0, 0, 1); /* Warna hijau */
+}
+
+/* Responsive untuk tablet (768px ke bawah) */
+@media (max-width: 768px) {
+  .span3 {
+    font-size: 25px; /* Ukuran font lebih kecil di tablet */
+  }
+}
+
+/* Responsive untuk mobile (480px ke bawah) */
+@media (max-width: 480px) {
+  .span3 {
+    font-size: 15px; /* Ukuran font lebih kecil di mobile */
+  }
+}
+
+/* ------------------------------------------------------ */
+/* Text: 5X LEBIH CEPAT => style3  */
+.text2 {
+  font-family: "Inter", serif;
+  padding: 20px;
+  display: block; /* Mengubah ini menjadi block */
+  text-align: center; /* Menambahkan ini untuk membuat teks berada di tengah */
+  color: rgba(255, 0, 0, 1);
+}
+
+.span4 {
+  font-size: 35px; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+  color: #rgba(0, 0, 0, 1); /* Warna hijau */
+}
+
+/* Responsive untuk tablet (768px ke bawah) */
+@media (max-width: 768px) {
+  .span4 {
+    font-size: 30px; /* Ukuran font lebih kecil di tablet */
+  }
+}
+
+/* Responsive untuk mobile (480px ke bawah) */
+@media (max-width: 480px) {
+  .span4 {
+    font-size: 20px; /* Ukuran font lebih kecil di mobile */
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Img gambar punggung beberapa img lain menjadi 1 line => syle3   */
+.image-container1 {
+  display: flex;
+  justify-content: center; /* Agar gambar tetap di tengah */
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  max-width: 500px; /* Batasi ukuran maksimum */
+  margin: 0 auto; /* Pusatkan container */
+}
+
+.image-item {
+  flex: 1;
+  max-width: 22%; /* Pastikan 4 gambar tetap dalam satu baris */
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+/* 🔹 Responsive: Perkecil di tablet */
+@media screen and (max-width: 1024px) {
+  .image-container1 {
+    max-width: 500px; /* Lebih kecil di tablet */
+  }
+  .image-item {
+    max-width: 24%;
+  }
+}
+
+/* 🔹 Responsive: Perkecil di mobile */
+@media screen and (max-width: 768px) {
+  .image-container1 {
+    max-width: 100%; /* Full width di mobile */
+    padding: 0 10px;
+  }
+  .image-item {
+    max-width: 25%;
+  }
+}
+
+/* 🔹 Responsive: HP kecil */
+@media screen and (max-width: 480px) {
+  .image-item {
+    max-width: 30%;
+  }
+}
+
+/* Texxt di dalam banner border gold "RIBUAN ORANG TELAH BERHASIL SEMBUH" => style3 */
+.text-banner {
+  font-family: "Inter", serif;
+  background-color: white;
+  border: 5px solid #ffd700; /* Warna kuning */
+  border-radius: 10px;
+  padding: 1px;
+  text-align: center;
+  width: 300px; /* Atur lebar sesuai kebutuhan */
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+}
+
+.text-banner p {
+  margin: 5px 0;
+  font-size: 24px; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+}
+
+/* 🔹 Responsive: Perkecil di mobile */
+@media screen and (max-width: 768px) {
+  .text-banner {
+    padding: 1px;
+  }
+  .text-banner p {
+    font-size: 15px;
+  }
+}

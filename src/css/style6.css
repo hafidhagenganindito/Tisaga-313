@@ -1,0 +1,316 @@
+/* IMG Warning  */
+
+.image-container7 {
+  display: flex;
+  justify-content: center; /* Pusatkan gambar */
+  align-items: center;
+  width: 100%;
+}
+
+.image-item3 {
+  width: 90%; /* Gunakan persentase agar tetap fleksibel */
+  max-width: 300px; /* Batasi ukuran maksimum di desktop */
+  min-width: 200px; /* Pastikan gambar tidak terlalu kecil di mobile */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media screen and (max-width: 480px) {
+  .image-item3 {
+    width: 80%; /* Pastikan tetap besar di layar kecil */
+    min-width: 280px; /* Jaga agar tetap proporsional */
+    max-width: 400px; /* Batasi ukuran maksimum di mobile */
+  }
+}
+
+/* --------------------------------- */
+/* Setiap pembelian diluar website kami, kami tidak menjamin keaslian dan khasiat produk yang dijual. */
+.text-container26 {
+  text-align: center;
+
+  padding: 20px;
+}
+
+.text-container26 p {
+  font-size: 25px; /* Ukuran font responsif */
+  font-weight: bold;
+  color: red; /* Warna teks merah */
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container26 p {
+    font-size: 15px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* ------------------------------------------------- */
+/* 97% KONSUMEN PUAS DAN TELAH MERASAKAN KHASIATNYA */
+.text-container27 {
+  background: linear-gradient(1.38deg, #cb0000 1.18%, #ff0000 98.82%);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%; /* Lebar penuh */
+  box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar */
+}
+
+.text-container27 p {
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: 1.5em; /* Ukuran font responsif */
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container27 p {
+    font-size: 1.2em; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* ------------------------------------------------ */
+/* 97% KONSUMEN PUAS DAN TELAH MERASAKAN KHASIATNYA */
+.text-container28 {
+  background: linear-gradient(
+    307.72deg,
+    #3d9b4a 0.42%,
+    #31793c 50%,
+    #254f2b 99.58%
+  );
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar penuh */
+  box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar */
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+.text-container28 p {
+  font-size: 30px; /* Ukuran font responsif */
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container28 p {
+    font-size: 25px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* -----------------=-------------------------------=-----------------------=----------- */
+/* Kotak persegi dengan 1 col berisi 4 korak & 1 row berisi 4 kotak */
+.image-container8 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(60px, 1fr)); /* Batasi ukuran kotak */
+  grid-gap: 5px; /* Jarak antar kotak */
+  padding: 10px;
+  max-width: 700px; /* Batasi lebar total */
+  margin: auto; /* Pusatkan div pembungkus */
+  background-color: #f0f0f0;
+}
+
+.grid-item {
+  background-color: lightgray;
+  width: 100%;
+  padding-bottom: 100%; /* Pastikan bentuk kotak tetap persegi */
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+/* Media Query - Tetap 4 kolom, tapi pastikan tidak terlalu besar */
+@media (max-width: 768px), (max-width: 480px) {
+  .image-container8 {
+    grid-template-columns: repeat(
+      4,
+      minmax(50px, 1fr)
+    ); /* Ukuran kotak lebih kecil */
+    max-width: 260px; /* Lebar total lebih kecil di mobile */
+  }
+}
+/* --------------------------------------------------------- */
+/* GARANSI UANG KEMBALI JIKA PRODUK PALSU / TIDAK BERKHASIAT */
+.text-container28 {
+  background: linear-gradient(
+    307.72deg,
+    #3d9b4a 0.42%,
+    #31793c 50%,
+    #254f2b 99.58%
+  );
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar penuh */
+  box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar */
+  font-family: sans-serif;
+}
+
+.text-container28 p {
+  font-size: 30px; /* Ukuran font responsif */
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container28 p {
+    font-size: 15px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* --------------------------------------------------------------  */
+
+/* Harga Spesial Diskon Ini Akan Berakhir Pada :  */
+.discount-timer {
+  text-align: center;
+
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.discount-timer p {
+  font-size: 20px; /* Ukuran font */
+  font-weight: bold;
+  color: black; /* Warna teks putih */
+  margin: 0;
+}
+@media (max-width: 480px) {
+  .discount-timer p {
+    font-size: 10px; /* Ukuran font */
+  }
+}
+
+/* ----------------------------------------------------- */
+/* JANGAN SAMPAI KELEWAT  */
+.text-container29 {
+  text-align: center;
+
+  padding: 20px;
+}
+
+.text-container29 p {
+  font-size: 20px; /* Ukuran font */
+  font-weight: bold;
+  color: rgba(222, 145, 20, 1);
+  margin: 0;
+}
+@media (max-width: 480px) {
+  .text-container29 p {
+    font-size: 15px; /* Ukuran font */
+  }
+}
+
+/* ----------------------------------------------- */
+/* Arrow  */
+/* Container utama */
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+/* Semua panah */
+.arrow img {
+  width: 60px; /* Sesuaikan ukuran panah */
+  height: auto;
+  object-fit: contain;
+}
+
+/* ------------------------------------------------- */
+/* CTA Button > Beli Sekarang */
+.button-container {
+  width: 100%; /* Atur lebar container menjadi 100% */
+  text-align: center; /* Membuat tombol berada di tengah */
+}
+
+.whatsapp-button {
+  display: inline-block; /* Mengubah display menjadi inline-block */
+  width: auto; /* Mengatur lebar tombol sesuai konten */
+  background: linear-gradient(90deg, #36ef52 0%, #34d948 60.5%, #43bf2a 100%);
+  color: white;
+  padding: 10px 60px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 24px; /* 1.5em = 24px */
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.whatsapp-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .whatsapp-button {
+    font-size: 19px; /* 1.2em = 19px */
+    padding: 10px 20px;
+  }
+}
+
+/* -------------------------------------------- */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.profile-image {
+  width: 90px; /* Ukuran gambar responsif */
+  height: 90px; /* Ukuran gambar responsif */
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  overflow: hidden; /* Menyembunyikan bagian gambar yang keluar dari lingkaran */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+  margin-bottom: 20px;
+  background: linear-gradient(359.85deg, #283d52 0.13%, #476e95 99.87%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 72px; /* 80% dari 90px */
+  height: 72px;
+  object-fit: cover; /* Memastikan gambar mengisi lingkaran */
+  border-radius: 50%;
+}
+
+.profile-name {
+  padding: 10px 20px;
+}
+
+.profile-name p {
+  font-size: 24px; /* 1.5em ≈ 24px */
+  font-weight: bold;
+  color: rgba(222, 145, 20, 1); /* Warna teks kuning */
+  margin: 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .profile-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .profile-image img {
+    width: 50px; /* 85% dari 120px */
+    height: 50px;
+  }
+
+  .profile-name p {
+    font-size: 15px; /* 1.2em ≈ 19.2px */
+  }
+}

@@ -1,0 +1,471 @@
+/* Text STROKE, ASAM URAT, DIABETES, KOLESTEROL, TRIGLISERIDA => style4 */
+.text-container1 {
+  font-family: "Inter", serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.text-container1 p {
+  color: rgba(255, 0, 0, 1);
+  font-size: 32px; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .text-container1 p {
+    font-size: 20px; /* Atur ukuran font sesuai kebutuhan */
+  }
+}
+
+/* -------------------------------------------- */
+
+/* Text di dalam Banner Bg Red : SOLUSI PENYUMBATAN ALIRAN DARAH => style4 */
+/* Banner Bg Red */
+.text-banner1 {
+  font-family: "Inter", serif;
+  background-color: rgba(163, 0, 0, 1); /* Warna merah */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar penuh */
+}
+
+.text-banner1 p {
+  margin: 5px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Container untuk List & Img Kaki */
+.container-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px; /* Kurangi gap ke 0px */
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: -26px;
+}
+
+/* Bagian List */
+.list {
+  flex: 1;
+  color: black;
+  padding: 10px; /* Kurangi padding agar tidak terlalu luas */
+  border-radius: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px; /* Kurangi jarak antar item */
+  font-weight: bold;
+}
+
+.item span {
+  background-color: #a52a2a;
+  color: white;
+  width: 16px; /* Sedikit lebih kecil */
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px; /* Kurangi margin antar ikon & teks */
+}
+
+/* Bagian Gambar */
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: left; /* Geser lebih dekat ke list */
+}
+
+.image-section img {
+  max-width: 60%; /* Perkecil sedikit agar lebih proporsional */
+  height: auto;
+  display: block;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .container-list {
+    flex-direction: row;
+    align-items: center;
+    gap: 0px; /* Hilangkan gap di mobile */
+    max-width: 450px; /* Persempit lagi */
+    margin-top: -22px;
+  }
+
+  .list,
+  .image-section {
+    width: 50%;
+    text-align: left;
+  }
+
+  .image-section img {
+    max-width: 70%; /* Perkecil sedikit */
+  }
+}
+
+/* ----------------------------------- */
+/* <!-- Bg dark text : AWAS! ITU ADALAH TANDA UTAMA DARAH TERSUMBAT => style4 --> */
+.text-banner2 {
+  font-family: "Inter", serif;
+  background-color: rgba(
+    37,
+    37,
+    37,
+    1
+  ); /* Warna latar belakang abu-abu gelap */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 800px; /* Atur lebar sesuai kebutuhan */
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+}
+
+.text-banner2 p {
+  margin: 5px 0;
+  font-size: 16px; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-banner2 {
+    padding: 1px;
+    width: 300px;
+  }
+  .text-banner2 p {
+    font-size: 15px;
+  }
+}
+
+/* ------------------------------------------- */
+/* Text : BAHAYA DARAH TERSUMBAT  */
+.text-container2 {
+  font-family: "Inter", serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Membuat teks berada di tengah horizontal */
+  align-items: center; /* Membuat teks berada di tengah vertikal */
+}
+
+.text3 {
+  font-size: 30px; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+  color: black; /* Warna teks hitam */
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-container2 {
+  }
+
+  .text3 {
+    font-size: 20px;
+  }
+}
+
+/* ------------------ -----------------*/
+/* JIKA DARAH TERSUMBAT DIBIARKAN HINGGA KOMPLIKASI BISA BERUJUNG MASUK RUANG OPERASI DAN KEMATIAN  */
+.text-container3 {
+  font-family: "Inter", serif;
+  background-color: rgba(
+    37,
+    37,
+    37,
+    1
+  ); /* Warna latar belakang abu-abu gelap */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px; /* Atur lebar sesuai kebutuhan */
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+}
+
+.text-container3 p {
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.warning1 {
+  color: red;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-container3 {
+    padding: 5px;
+    border-radius: 10px;
+    width: 400px; /* Atur lebar sesuai kebutuhan */
+    margin: 20px auto; /* Membuat elemen berada di tengah */
+  }
+
+  .text-container3 p {
+    font-size: 15px;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+}
+
+/* SEMBUHKAN SEKARANG */
+.text-container4 {
+  font-family: "Inter", serif;
+  background-color: rgba(37, 79, 43, 1); /* Warna hijau */
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  width: 100%; /* Agar lebar menyesuaikan konten */
+}
+
+.text-container4 p {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-container4 {
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    width: 100%; /* Agar lebar menyesuaikan konten */
+  }
+  .text-container4 p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+/* ------------------------------------------- */
+/* Img obat Tisaga */
+.image-container3 {
+  display: flex;
+  justify-content: center; /* Pusatkan gambar */
+  align-items: center;
+  width: 100%;
+}
+
+.image-item2 {
+  width: 90%; /* Gunakan persentase agar tetap fleksibel */
+  max-width: 300px; /* Batasi ukuran maksimum di desktop */
+  min-width: 200px; /* Pastikan gambar tidak terlalu kecil di mobile */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .image-item2 {
+    width: 80%; /* Pastikan tetap besar di layar kecil */
+    min-width: 280px; /* Jaga agar tetap proporsional */
+    max-width: 400px; /* Batasi ukuran maksimum di mobile */
+  }
+}
+
+/* ---------------------------------- */
+/* TISAGA 313 */
+.text-container5 {
+  font-family: "Inter", serif;
+  background-color: rgba(37, 79, 43, 1); /* Warna hijau */
+  color: white;
+  padding: 15px 100px;
+  text-align: right; /* Mengatur teks rata kanan */
+  border-radius: 50px 0 0 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 0 20px auto; /* Margin kanan otomatis untuk rata kanan */
+  width: fit-content; /* Agar lebar menyesuaikan konten */
+  margin-top: -50px;
+}
+
+.text-container5 p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-container5 {
+    padding: 15px 30px;
+    text-align: right; /* Mengatur teks rata kanan */
+    border-radius: 50px 0 0 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px 0 20px auto; /* Margin kanan otomatis untuk rata kanan */
+    width: fit-content; /* Agar lebar menyesuaikan konten */
+    margin-top: -130px;
+  }
+  .text-container5 p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+/* ----------------------- */
+/* AMPUH ATASI DARAH TERSUMBAT ANDA SEBELUM KOMPLIKASI TANPA HARUS OPERASI */
+.text-container6 {
+  font-family: "Inter", serif;
+  background: linear-gradient(1.38deg, #254f2b 1%, #398d45 99%);
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 850px; /* Atur lebar sesuai kebutuhan */
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  margin-top: 100px;
+}
+
+.text-container6 p {
+  margin: 5px 0;
+  font-size: 1.2em; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: bold;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-container6 {
+    background: linear-gradient(1.38deg, #254f2b 1%, #398d45 99%);
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px; /* Atur lebar sesuai kebutuhan */
+    margin: 20px auto; /* Membuat elemen berada di tengah */
+  }
+
+  .text-container6 p {
+    margin: 5px 0;
+    font-size: 1.2em; /* Atur ukuran font sesuai kebutuhan */
+    font-weight: bold;
+  }
+}
+
+/* ------------------------------- */
+/* KENAPA HARUS TISAGA 313 */
+.text-container7 {
+  font-family: "Inter", serif;
+  display: flex;
+  align-items: center; /* Pusatkan vertikal */
+  justify-content: center; /* Pusatkan horizontal */
+  gap: 10px; /* Jarak antara teks dan gambar lebih dekat */
+  padding: 20px;
+  max-width: 600px; /* Batasi lebar agar lebih ke tengah */
+  margin: 0 auto; /* Pusatkan secara horizontal */
+}
+
+.text4 {
+  flex: 2;
+  text-align: right; /* Posisikan teks lebih dekat ke gambar */
+}
+
+.image-container4 {
+  flex: 1;
+  text-align: left;
+}
+
+.image-container4 img {
+  max-width: 90px; /* Perkecil gambar agar lebih proporsional */
+  height: auto;
+}
+
+.text5 {
+  font-size: 32px; /* Gunakan px sesuai permintaan */
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.text6 {
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+  margin: 0;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-container7 {
+    flex-direction: row;
+    gap: 5px;
+    max-width: 100%; /* Pastikan tetap responsif */
+  }
+
+  .text4 {
+    text-align: right;
+  }
+
+  .image-container4 {
+    text-align: left;
+  }
+
+  .image-container4 img {
+    max-width: 70px; /* Perkecil lagi untuk mobile */
+  }
+
+  .text5,
+  .text6 {
+    font-size: 20px; /* Ukuran lebih kecil untuk mobile */
+  }
+}
+
+/* --------------------------------- */
+/* List mulai dari HASILNYA CEPAT => style4 */
+.text-container8 {
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.list1 {
+  font-size: 13px;
+  background-color: white;
+  border-radius: 0;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  width: 300px; /* Atur lebar item sesuai kebutuhan */
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.img-item2 {
+  width: 20px; /* Sesuaikan ukuran ikon */
+  height: auto;
+  margin-right: 10px; /* Tambahkan jarak antara ikon dan teks */
+}
+
+@media screen and (max-width: 768px) {
+  .list1 {
+    font-size: 10px;
+  }
+
+  .img-item2 {
+    width: 18px; /* Sedikit lebih kecil untuk layar kecil */
+    margin-right: 8px; /* Kurangi jarak untuk layar kecil */
+  }
+}

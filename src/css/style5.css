@@ -1,0 +1,781 @@
+/* Text: INGAT!!! KESEHATAN NOMOR 1 in orange bg. => style5  */
+.text-container9 {
+  font-family: "Inter", serif;
+  background-color: rgba(238, 158, 0, 1); /* Warna oranye */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  width: 90%; /* Lebar responsif */
+  max-width: 500px; /* Lebar maksimum */
+}
+
+.text-container9 p {
+  margin: 5px 0;
+  font-size: 25px; /* Ukuran font responsif */
+  font-weight: bold;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container9 p {
+    font-size: 20px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* -------------------------------------------- */
+/* Jika Anda sudahsakit-sakitan Harta dan tahta tidak berarti lagi       */
+.text-container10 {
+  font-family: "Inter", serif;
+  background: linear-gradient(1.38deg, #cb0000 1.18%, #ff0000 98.82%);
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar responsif */
+
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  margin-top: 50px;
+}
+
+.text-container10 p {
+  margin: 5px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container10 p {
+    font-size: 20px;
+  }
+}
+
+/* --------------------------- */
+/* Img Phone, garis bawah biru & testimony => style5 */
+.text-container11 {
+  font-family: "Inter", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  position: relative;
+}
+
+.phone-image {
+  width: 200px; /* Lebar gambar telepon */
+  max-width: 90%; /* Lebar responsif */
+  position: relative; /* Untuk referensi posisi testimony */
+}
+
+.phone-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.testimony-image {
+  width: 260px; /* Sesuaikan lebar testimoni */
+  max-width: 70%;
+  position: absolute;
+  left: 55%; /* Geser ke kanan tetapi tetap dekat */
+
+  top: 60%; /* Turunkan agar sedikit di bawah */
+  transform: translateX(-40%); /* Membantu menyesuaikan posisi */
+}
+
+.testimony-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Media query untuk layar kecil */
+@media (max-width: 480px) {
+  .text-container11 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phone-image {
+    width: 50%;
+    right: 20%;
+  }
+
+  .testimony-image {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin-top: -120px; /* Dekatkan ke bawah */
+    width: 70%;
+  }
+}
+
+/* ----------------------------- */
+/* PERUBAHAN MEMBAIK DALAM 7 HARI => style5    */
+.text-container12 {
+  font-family: "Inter", serif;
+  background-color: rgba(0, 66, 255, 1); /* Warna biru */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar responsif */
+
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  margin-top: -5px;
+}
+
+.text-container12 p {
+  margin: 0;
+  font-size: 15px; /* Ukuran font responsif */
+  font-weight: bold;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container12 {
+    margin-top: -20px;
+  }
+  .text-container12 p {
+    font-size: 10px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* -------------------------------------------------------------------- */
+/* Container utama */
+.text-container13 {
+  font-family: "Inter", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Wrapper untuk kedua gambar */
+.chat-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style untuk kedua gambar */
+.img-item3,
+.img-item4 {
+  height: auto;
+  display: block;
+  width: 40vw; /* Lebar 40% dari viewport agar berdempetan */
+  max-width: 250px; /* Maksimal ukuran gambar di desktop */
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .img-item3,
+  .img-item4 {
+    width: 45vw; /* Sedikit lebih besar di layar laptop */
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-item3,
+  .img-item4 {
+    width: 50vw; /* Perbesar di tablet */
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-item3,
+  .img-item4 {
+    width: 100%; /* Full lebar di mobile */
+    max-width: none; /* Hilangkan batasan ukuran */
+  }
+}
+
+/* ------------------------------------------------------ */
+/* TAHUKAH ANDA, BERAPA BIAYA YANG HARUS ANDA KELUARKAN JIKA DARAH TERSUMBAT TERLAMBAT DITANGANI  */
+.text-container14 {
+  font-family: "Inter", serif;
+  background-color: rgba(163, 0, 0, 1);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar responsif */
+
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+}
+
+.text-container14 p {
+  margin: 5px 0;
+  font-size: 20px; /* Ukuran font responsif */
+  font-weight: bold;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container14 p {
+    font-size: 10px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* ---------------------------------------------- */
+/* BERIKUT DAFTAR BIAYA OPERASI  */
+.text-container15 {
+  font-family: "Inter", serif;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.text-container15 p {
+  font-size: 30px; /* Ukuran font responsif */
+  font-weight: bold;
+  color: #2e8b57; /* Warna hijau */
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container15 p {
+    font-size: 20px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* --------------------------------------- */
+/* PEMBULUH DARAH TERSUMBAT PADA BEBERAPA RUMAH SAKIT DI INDONESIA  */
+.text-container16 {
+  font-family: "Inter", serif;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.text-container16 p {
+  font-size: 25px; /* Ukuran font responsif */
+  font-weight: bold;
+  color: black; /* Warna teks hitam */
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container16 p {
+    font-size: 15px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* ------------------------------------------------------------- */
+/* Hospital List  */
+.hospital-list {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    307.72deg,
+    #3d9b4a 0.42%,
+    #31793c 50%,
+    #254f2b 99.58%
+  );
+  padding: 20px;
+}
+
+.hospital-item {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 5px; /* Memberikan jarak antar item */
+}
+.hospital-item1 {
+  width: 90%;
+  max-width: 300px;
+  margin-bottom: 20px; /* Memberikan jarak antar item */
+}
+
+.hospital-name,
+.hospital-price {
+  border: none;
+  padding: 15px 20px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* Button full rounded */
+.hospital-name {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50px; /* Full rounded */
+  color: white;
+}
+
+.hospital-price {
+  background-color: white;
+  border-radius: 50px; /* Full rounded */
+}
+
+.source p {
+  font-size: 12px;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .hospital-item {
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 5px; /* Memberikan jarak antar item */
+  }
+  .hospital-item1 {
+    width: 90%;
+    max-width: 200px;
+    margin-bottom: 20px; /* Memberikan jarak antar item */
+  }
+  .hospital-name,
+  .hospital-price {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+}
+
+/* ------------------------------------------------ */
+/* BANDINGKAN HARGANYA!!! */
+.text-container17 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.text-container17 p {
+  font-size: 20px; /* Ukuran font responsif */
+  font-weight: bold;
+  color: black; /* Warna teks hitam */
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container17 p {
+    font-size: 15px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* ------------------------------------------------------ */
+/* PROMO TERBATAS TISAGA 313 */
+.text-container18 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.promo-text {
+  font-size: 40px; /* Ukuran font responsif */
+  font-weight: bold;
+  color: black; /* Warna teks hitam */
+  margin: 5px 0;
+}
+
+.product-name {
+  font-size: 40px; /* Ukuran font responsif */
+  font-weight: bold;
+  color: black; /* Warna teks hitam */
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .promo-text,
+  .product-name {
+    font-size: 25px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* ------------------------------------------------------- */
+/* DISKON 67% */
+.text-container19 {
+  background: linear-gradient(181.52deg, #0042ff 1.29%, #0033c5 98.71%);
+
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50px; /* Membuat bentuk oval */
+  width: 90%; /* Lebar responsif */
+  max-width: 350px; /* Lebar maksimum */
+  margin: 15px auto; /* Membuat elemen berada di tengah */
+}
+
+.text-container19 p {
+  font-size: 20px; /* Ukuran font default */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Media query untuk ukuran tablet */
+@media (max-width: 768px) {
+  .text-container19 {
+    max-width: 300px;
+    padding: 12px;
+  }
+  .text-container19 p {
+    font-size: 28px; /* Ukuran font lebih kecil */
+  }
+}
+
+/* Media query untuk ukuran layar kecil (mobile) */
+@media (max-width: 480px) {
+  .text-container19 {
+    max-width: 150px;
+    padding: 10px;
+  }
+  .text-container19 p {
+    font-size: 15px; /* Ukuran font lebih kecil */
+  }
+}
+
+/* -------------------------------------------- */
+/* Bg hijau dan is kontenya serta img obat TISAGA */
+.text-container20 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(
+    307.72deg,
+    #3d9b4a 0.42%,
+    #31793c 50%,
+    #254f2b 99.58%
+  );
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.content {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.price-container {
+  margin: 10px 0;
+  margin-top: 90px;
+}
+
+.from-price {
+  font-family: "Inter", serif;
+  background-color: white;
+  color: black;
+  padding: 15px 100px;
+  text-align: left;
+  border-radius: 0 50px 50px 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+  margin-top: -220px;
+  width: fit-content;
+  position: relative;
+  left: 0;
+}
+
+.old-price {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.new-price {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.new-price span {
+  font-size: 20px;
+}
+
+.image-container5 {
+  width: 40%;
+  max-width: 220px;
+}
+
+.image-container5 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .text-container20 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .old-price,
+  .new-price {
+    font-size: 19px;
+  }
+
+  .from-price {
+    padding: 10px 50px;
+  }
+
+  .image-container5 {
+    width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-container20 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+
+  .old-price {
+    font-size: 20px;
+  }
+  .new-price {
+    font-size: 16px;
+    /* margin-top: -80px; */
+  }
+
+  .from-price {
+    padding: 2px 30px;
+    margin-top: -170px;
+  }
+
+  .image-container5 {
+    width: 150px;
+  }
+}
+
+/* ------------------------------------------------------- */
+/* SEMBUH DENGAN IJIN ALLAH  */
+.text-container21 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar responsif */
+  margin: 165px auto; /* Membuat elemen berada di tengah */
+}
+
+.text-container21 p {
+  margin: 0;
+  font-size: 20px; /* Ukuran font responsif */
+  font-weight: bold;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container21 {
+    text-align: center;
+    padding: 20px;
+    margin: 140px auto; /* Membuat elemen berada di tengah */
+  }
+  .text-container21 p {
+    font-size: 15px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* -------------------------------------------------- */
+/* CUSTOMER KAMI SEBAGIAN BESAR MEMILIH ORDER VIA FORM PEMESANAN.  KARENA  */
+.text-container22 {
+  text-align: center;
+
+  padding: 20px;
+
+  margin-top: -150px;
+}
+
+.text-container22 p {
+  font-size: 25px; /* Menggunakan px sebagai satuan */
+  font-weight: bold;
+  color: red;
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container22 p {
+    font-size: 18px; /* Menggunakan px sebagai satuan */
+  }
+}
+
+/* ------------------------------------- */
+/* YUK TERHUBUNG LANGSUNG DENGAN KAMI VIA WHATSAPP */
+.text-container23 {
+  padding: 20px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Posisi ke tengah untuk desktop */
+  text-align: center;
+}
+
+.text-container23-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px; /* Membuat semua list sejajar */
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: black;
+}
+
+.checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  color: blue;
+  margin-right: 10px;
+}
+
+.text-container23-text {
+  text-align: left;
+  flex: 1;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container23-item {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .checkmark {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* ----------------------------------------------- */
+/* YUK TERHUBUNG LANGSUNG DENGAN KAMI VIA WHATSAPP dan img */
+
+.text-container24 {
+  text-align: left; /* Mengatur teks ke kiri */
+
+  padding: 20px;
+  max-width: 500px; /* Lebar maksimum */
+  margin-left: 400px; /* Memberikan margin kiri */
+}
+
+.text-container24 p {
+  font-size: 30px; /* Ukuran font responsif */
+  font-weight: bold;
+  color: black; /* Warna teks hitam */
+  margin: 5px 0;
+}
+
+.text-blue {
+  color: blue; /* Warna teks biru */
+}
+
+.image-container6 {
+  position: absolute;
+  right: 300px;
+  top: 7720px;
+}
+
+.image-container6 img {
+  width: 350px;
+  height: auto;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-container24 {
+    text-align: left; /* Mengatur teks ke kiri */
+
+    padding: 20px;
+    max-width: 500px; /* Lebar maksimum */
+    margin-left: 20px; /* Memberikan margin kiri */
+  }
+  .text-container24 p {
+    font-size: 20px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+
+  .image-container6 {
+    position: absolute;
+    left: 150px;
+    top: 6340px;
+  }
+
+  .image-container6 img {
+    width: 250px;
+    height: auto;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* KLIK UNTUK LANJUT KE WHATSAPP */
+.text-container25 {
+  font-family: "Inter", serif;
+  background: linear-gradient(
+    176.84deg,
+    #36ef52 2.61%,
+    #34d948 50%,
+    #43bf2a 97.39%
+  );
+
+  color: white;
+  padding: 15px 350px;
+  text-align: right; /* Mengatur teks rata kanan */
+  border-radius: 50px 0 0 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 0 20px auto; /* Margin kanan otomatis untuk rata kanan */
+  width: fit-content; /* Agar lebar menyesuaikan konten */
+  margin-top: -4px;
+}
+
+.text-container25 p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .text-container25 {
+    padding: 15px 30px;
+    text-align: right; /* Mengatur teks rata kanan */
+    border-radius: 50px 0 0 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px 0 20px auto; /* Margin kanan otomatis untuk rata kanan */
+    width: fit-content; /* Agar lebar menyesuaikan konten */
+    margin-top: 123px;
+  }
+  .text-container25 p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+  }
+}

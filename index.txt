@@ -1,0 +1,87 @@
+<!-- Text di dalam Banner Bg Red : SOLUSI PENYUMBATAN ALIRAN DARAH => style4 -->
+    <div class="text-banner1">
+      <p>SOLUSI PENYUMBATAN</p>
+      <p>ALIRAN DARAH</p>
+    </div>
+
+
+
+    /* Text di dalam Banner Bg Red : SOLUSI PENYUMBATAN ALIRAN DARAH => style4 */
+.text-banner1 {
+  background-color: rgba(163, 0, 0, 1); /* Warna merah */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar penuh pada mobile */
+}
+
+.text-banner1 p {
+  margin: 5px 0;
+  font-size: 24px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  font-weight: bold;
+}
+
+/* Media query untuk tablet dan desktop */
+@media (min-width: 768px) {
+  .text-banner1 {
+    width: 500px; /* Lebar tetap pada tablet dan desktop */
+    margin: 20px auto; /* Membuat banner berada di tengah */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-banner1 p {
+    font-size: 15px;
+  }
+}
+
+
+
+-----------------------------------------------
+<!-- SEMBUHKAN SEKARANG -->
+    <div class="text-container4">
+      <p>SEMBUHKAN SEKARANG</p>
+    </div>
+
+
+/* SEMBUHKAN SEKARANG */
+.text-container4 {
+  font-family: "Inter", serif;
+  background-color: #2e8b57; /* Warna hijau */
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  width: fit-content; /* Agar lebar menyesuaikan konten */
+}
+
+.text-container4 p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+
+Buatkan HTML & CSSnya serta responsive ke semua device
+
+
+
+
+.from-price {
+  font-family: "Inter", serif;
+  background-color: white;
+  color: black;
+  padding: 15px 200px;
+  text-align: left;
+  border-radius: 0 50px 50px 0; /* Full rounded hanya di kanan */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 0; /* Margin kiri dihapus */
+  margin-top: -220px;
+  width: fit-content; /* Agar lebar menyesuaikan konten */
+  position: relative;
+  left: 0; /* Menempel ke kiri layar */
+}

@@ -1,0 +1,51 @@
+/* Hilangkan margin dan padding default */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Pastikan parent tidak ada padding */
+#app {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* =========================== */
+
+/* Pastikan container benar-benar full width tanpa rounded corners */
+.custom-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  text-align: center;
+  background: linear-gradient(
+    307.72deg,
+    #3d9b4a 0.42%,
+    #31793c 50%,
+    #254f2b 99.58%
+  );
+  margin-top: -1rem;
+  width: 100%; /* Pastikan lebar penuh sesuai viewport */
+  box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar */
+  border-radius: 0; /* Hapus border-radius agar background full kotak */
+}
+
+.custom-container p {
+  font-family: "Inter", serif;
+  color: black;
+  margin-top: 1.25rem;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.highlight {
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

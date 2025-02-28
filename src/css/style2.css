@@ -1,0 +1,90 @@
+/* <!-- Text di btn = > style2 -- >  */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  font-family: "Inter", serif;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.checkmark {
+  width: 20px; /* Atur ukuran gambar sesuai kebutuhan */
+  height: 20px; /* Atur ukuran gambar sesuai kebutuhan */
+  margin-right: 10px; /* Menambahkan gap di sini */
+}
+
+/* ------------------------------------------------------------------ */
+/* Bg Green dan Textnya  */
+.container1 {
+  position: relative;
+
+  background-color: rgba(37, 79, 43, 1);
+  color: white;
+  padding: 5px;
+  border-radius: 30px; /* Atur radius sudut sesuai kebutuhan */
+  text-align: center;
+  width: 300px; /* Atur lebar tombol sesuai kebutuhan */
+  margin: 20px auto; /* Membuat tombol berada di tengah */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: "Inter", serif;
+}
+
+.button-content p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.discount {
+  font-size: 15px;
+}
+
+.cod,
+.promo {
+  font-size: 10px;
+}
+
+/* Responsive untuk tablet (lebar minimal 768px) */
+@media (min-width: 768px) {
+  .container1 {
+    width: 350px;
+    padding: 10px;
+  }
+
+  .discount {
+    font-size: 18px;
+  }
+
+  .cod,
+  .promo {
+    font-size: 12px;
+  }
+}
+
+/* Responsive untuk desktop (lebar minimal 1024px) */
+@media (min-width: 1024px) {
+  .container1 {
+    width: 400px;
+    padding: 15px;
+  }
+
+  .discount {
+    font-size: 20px;
+  }
+
+  .cod,
+  .promo {
+    font-size: 14px;
+  }
+}
