@@ -699,11 +699,12 @@
   color: blue; /* Warna teks biru */
 }
 
-.image-container6 {
+/* .image-container6 {
   position: absolute;
   right: 300px;
-  top: 7720px;
-}
+  top: 7865px;
+  padding-top: -600px;
+} */
 
 .image-container6 img {
   width: 350px;
@@ -723,11 +724,11 @@
     font-size: 20px; /* Ukuran font lebih kecil pada layar kecil */
   }
 
-  .image-container6 {
+  /* .image-container6 {
     position: absolute;
     left: 150px;
     top: 6340px;
-  }
+  } */
 
   .image-container6 img {
     width: 250px;
